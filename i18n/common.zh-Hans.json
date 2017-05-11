@@ -1,0 +1,36 @@
+{
+	"dialog": {
+		"ok": "好的",
+		"yes": "是",
+		"no": "否",
+		"done": "完成",
+		"cancel": "取消"
+	},
+	"auth": {
+		"username-required": "用户名没填，亲",
+		"password-required": "密码没填，亲",
+		"orig-pwd-required": "原密码没填，亲",
+		"new-pwd-required": "新密码没填，亲",
+		"cfm-pwd-required": "确认密码没填，亲",
+		"pwd-not-changed": "你的新密码和旧密码一样啊，亲",
+		"cfm-pwd-failed": "两次输入的新密码不一致，亲"
+	},
+	"portalClient": {},
+	"sipStatus": {
+		"error": "服务请求失败",
+		"success": "服务请求成功",
+		"signatureInvalid": "签名无效",
+		"reqTimeout": "请求过期",
+		"binduserFaild": "用户绑定失败，用户不存在",
+		"needBinduser": "需要绑定用户",
+		"needAppKey": "需要提供AppKey",
+		"needApiName": "需要提供服务名",
+		"needSign": "需要提供签名",
+		"needTimeStamp": "需要提供时间戳",
+		"authFaild": "用户认证失败",
+		"noRightCallService": "无权访问服务",
+		"service": "服务不存在",
+		"sessionid": "需要提供SessionId",
+		"username": "需要提供用户名"
+	}
+}

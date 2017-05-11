@@ -1,0 +1,35 @@
+{
+  "dialog": {
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "done": "Done",
+    "cancel": "Cancel"
+  },
+  "auth": {
+    "username-required": "Username required",
+    "password-required": "Password required",
+    "orig-pwd-required": "Original password required",
+    "new-pwd-required": "New password required",
+    "cfm-pwd-required": "Confirm password required",
+    "pwd-not-changed": "Please make sure your new password is different with original password",
+    "cfm-pwd-failed": "Please make sure your confirm password is the same as new password"
+  },
+  "sipStatus": {
+    "error": "Request error",
+    "success": "Success",
+    "signatureInvalid": "Invalid signature",
+    "reqTimeout": "Request timeout",
+    "binduserFaild": "Bind user failed",
+    "needBinduser": "Bind user first",
+    "needAppKey": "APP key reqired",
+    "needApiName": "API name reqired",
+    "needSign": "Signature required",
+    "needTimeStamp": "Time-stamp required",
+    "authFaild": "Authentication failed",
+    "noRightCallService": "Access denied",
+    "service": "Service not exist",
+    "sessionid": "No session ID",
+    "username": "Username required"
+  }
+}

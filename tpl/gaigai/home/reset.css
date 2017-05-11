@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* base */
+body {font-family:"微软雅黑","宋体"; font-size:0.75em; color:#333333;}
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td, img{
+margin: 0;
+padding: 0;
+border: 0;
+}
+th, td {vertical-align:middle}
+ul, ol, li {list-style:none}
+fieldset, img {border:none}
+legend {display:none}
+caption {display:none}
+/* a-style */
+a {color:#333;text-decoration:none !important; font-size:1em}
+a:hover, a:active {text-decoration:none}
+input, select, textarea {font-family:Dotum, sans-serif; font-size:1em; color:#555}
+select {padding:1px;}
+table {table-layout:fixed; border-collapse:collapse}
+table *{vertical-align:middle}
+html, body {height:100%}
+input {font-family:Dotum, sans-serif; font-size:1em; color:#555}
+
+
+textarea {border:1px solid #e3e3e3; padding:5px; line-height:1.5em}
+input.radio, input.checkbox {width:14px; height:14px; display:inline-block}
+input.text, input.file {border:1px solid #c8c8c8; background:#f7f7f7; color:#222 !important; height:18px; line-height:18px; padding:0 5px}
+div.find_file {.margin:-1px 0 0 0 !important; .padding-bottom:2px !important} 
+input.file {border-right:0 none} .wrap_file {display:inline-block; padding-right:61px} 
+
+label.basic {position:relative; padding:2px 16px 0 19px;}
+label.basic_01{position:relative; padding:0 2px 0 19px;}
+*:first-child+html label.basic_01{position:relative; padding:-10px 2px 0 19px;}
+label.basic .radio, label.basic .checkbox {position:absolute; left:0; top:1px}
+
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+
+.orange {color:#e62717 !important}
+
+.min {font-size:0.9em}
+.pl5 {padding-left:5px;}
+.pr5 {padding-right:5px;}
+.pt5 {padding-top:5px;}
+.pb5 {padding-bottom:5px;}
